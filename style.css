@@ -7,6 +7,7 @@
  --bgColor: #fff;
  --boxShadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 body {
   font-family: Arial, sans-serif;
   color: #333;
@@ -15,10 +16,10 @@ body {
 }
 
 header {
-  background-color: #fff;
+  background-color: var(--bgColor);
   padding: 1rem;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--boxShadow);
 }
 
 h1 {
@@ -33,9 +34,9 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: var(--bgColor);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--boxShadow);
   margin: 1rem;
   overflow: hidden;
   width: 300px;
@@ -60,3 +61,4 @@ h1 {
   margin: 0;
   font-size: 1.4rem;
 }
+
