@@ -39,7 +39,8 @@ h1 {
   box-shadow: var(--boxShadow);
   margin: 1rem;
   overflow: hidden;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
 }
 
 .card-img {
