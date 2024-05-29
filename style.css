@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+/* CSS Variable */
+:root {
+ --bgColor: #fff;
+ --boxShadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 body {
   font-family: Arial, sans-serif;
   color: #333;
